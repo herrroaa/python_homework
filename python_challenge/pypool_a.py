@@ -3,7 +3,6 @@ csvpath= "election_data_1.csv"
 
 with open (csvpath, newline="") as csvfile:
     datafile = csv.reader(csvfile, delimiter=',')
-    total = 0 
     next(datafile,None)
     print (datafile)
 

@@ -9,6 +9,5 @@ with open (csvpath, newline="") as csvfile:
     print(datafile)
     next(datafile,None)
     months_num = list(datafile)
-    print(months_num)
-    #row_count = len(months_num)
-    #print("the total number of months inclued in the dataset is " + str(row_count)) 
+    row_count = len(months_num)
+    print("the total number of months inclued in the dataset is " + str(row_count)) 
